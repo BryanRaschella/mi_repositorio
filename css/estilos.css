@@ -1,3 +1,4 @@
+/* Titulo */
 .hotelTitulo {color:#d3ae50;
 text-align: center;
 position: absolute; top: 164px; left: 316px; 
@@ -5,6 +6,8 @@ font-size: 32px;
 font-weight: 100;
 letter-spacing: 4px;
 font-family: 'Kurale', serif;}
+
+/*NavBar*/
 nav ul li {color:#d3ae50;
     padding: 44px 62px;
     text-align: center;
@@ -20,7 +23,9 @@ box-sizing: border-box;}
     a:hover{
         color:black;
         background-color:#d3ae50;}
-.imgBastille { margin-left: auto;
+
+        /* Logo */
+        .imgBastille { margin-left: auto;
 margin-right: auto;
 display: block;
 margin-top: 30px;}       
@@ -30,6 +35,8 @@ margin-top: 30px;}
 text-align: center;
 margin-top: 70px;
 line-height: 10px;}
+
+/* Contenido Home */
 .descripcionHome {color: #d3ae50;
   font-family: 'Kurale', serif;
 width: 600px;
@@ -38,6 +45,8 @@ text-align: center;
 margin: auto;
 margin-top: 50px;
 font-size: 20px;}
+
+ 
 .tituloGaleria {
   font-family: 'Kurale', serif;
   color: #d3ae50;
@@ -124,6 +133,8 @@ h5{ font-family: 'Kurale', serif;}
       height: 276px;}
       .eventos__descrip { width: 330px;
       height: 220px;}
+
+    .fondoBlanco { background-color: white;}
 
 
 
@@ -407,4 +418,11 @@ height: 600px;}
 
 
 
- 
+ .header {
+ background: url(https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/48/72/4872740_v4.jpeg) no-repeat center;
+  background-size: cover;
+  min-height: 108vh;
+}
+.header .navbar {
+  background-color: transparent !important;
+}
